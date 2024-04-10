@@ -25,15 +25,22 @@ if (age >= 18 && money){
 
 // || OR OPERATOR  mientras se cumpla una condicion es suficiente 
 
-let age = 18;
+// VARIABLES
+let age = 15;
 let money = false;
+
+// OPERADOR AND &&
 if (age >= 18 && money){
     console.log("El usuario puede pasar");
 } else {
     console.log("El usuario no puede pasar");
 }
+
+// OPERADOR OR ||
 if (age >= 18 || money){
     console.log("El usuario puede pasar");
 } else {
     console.log("El usuario no puede pasar");
 } 
+
+
