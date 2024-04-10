@@ -26,7 +26,7 @@ if (age >= 18 && money){
 // || OR OPERATOR  mientras se cumpla una condicion es suficiente 
 
 let age = 18;
-let money = true;
+let money = false;
 if (age >= 18 && money){
     console.log("El usuario puede pasar");
 } else {
